@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="jquery/jquery.min.js"></script>
+<head>
+    <title>myResume</title>
+
+   
+</head>
+<body>
+<div id="resumecontainer">
+    
+    <img src="image/picture.jpg" alt="My Picture" style="width:200px;height:200px;">
+
+    <div class="name">
+        <p>Gwyneth R. Devocion</p>
+        <p> 09207373693 </p>
+        <p> Sitio Greenfield, Brgy. San Isidro Ormoc City </p>
+        <p> gwyneth.devocion@evsu.edu.ph </p>
+        
+</div>
+    <br>
+    <br>
+    <br>
+    <hr style="background-color: black; height:10px;">
+
+    <div class=info>
+       
+            <h1>PERSONAL INFORMATION</h1>
+            <p>    Age : 22</p>
+            <p>    Birthdate: July 08, 1999 </p>
+             <p>   Birthplace: Ormoc City </p>
+             <p>   Nationality: Filipino </p>
+             <p>   Height: 4'12  </p>
+             <p>   Weight : 45</p>
+             <p>   Mother’s Name: Ruby R. Devocion </p>
+             <p>   Father’s Name: Willgei M. Devocion</p>    
+            
+             <h1>OBJECTIVES</h1>
+             <h4> To be able to enhance my skills.  </h4>
+             <button id="hide" style="margin-left:30px">Click here to hide</button>
+             <button id="show" style="margin-left:30px"> Click here to show</button>
+        
+            <h1>EDUCATIONAL BACKGROUND</h1>
+               <h2><li>TERTIARY EDUCATION</li></h2>
+             <p>Eastern Visayas State University - Ormoc Campus </p>
+                 <p>   Bachelor of Science in Information Technology </p>
+                  <p>  4th Year Standing</p>
+                </h3>
+            
+                <h2><li>SECONDARY EDUCATION</li></h2>
+               <p>(Senior High School) <p>
+                <p>    ACLC College of Ormoc (2018) <p>
+                <p>   (Junior High School) <p>
+                <p>   Linao National High School (2016) <p>
+            
+
+                <h2><li>PRIMARY EDUCATION</li></h2>
+                <p>San Isidro Elementary School (2012)</p>
+            
+            
+                <h1>SCHOLASTIC RECORDS</h1>
+                   <b> <p>UNIFAST SCHOLARSHIP</b></p>
+                        <h3><li>TES- Tertiary Education Subsidy</li></h3>
+                <b><p>CHED SCHOLARSHIP</b></p>
+                    <h3><li>FHE- Free Higher Education</li></h3>
+
+            <h1>SKILLS</h1>
+                <h3><li>Proficient in Microsoft Including Excel and PowerPoint</li>
+                <li>    Photoshop </li>
+                <li>    Photo/Video Editing </li></h3>
+
+        </div>   
+        
+</div>
+</body>
+
+</html>
+<script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("h4").hide();
+        });
+     $("#show").click(function(){
+         $("h4").show();
+     });
+    });
+    </script>
